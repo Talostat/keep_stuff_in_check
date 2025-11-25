@@ -1,1 +1,1 @@
-https://talostat.github.io/manage_your_stuff/
+https://talostat.github.io/keep_stuff_in_check/data-table.html
