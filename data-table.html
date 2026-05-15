@@ -91,9 +91,10 @@
                     </div>
 
                     <!-- 臨時存儲面板 -->
-                    <div class="temp-storage-container">
+                    <div class="temp-storage-container" id="tempStorageContainer">
                         <div class="temp-storage-header">
                             <h3>📋 臨時存儲</h3>
+                            <button class="btn-toggle-temp" id="toggleTempBtn" onclick="toggleTempStorage()" title="隱藏/顯示臨時存儲">▼</button>
                         </div>
                         <div class="temp-storage-content" id="tempStorageList">
                             <!-- 臨時項目將動態插入 -->

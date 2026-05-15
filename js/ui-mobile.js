@@ -1,4 +1,4 @@
-
+﻿
         // Data for mobile view switching
         function switchMobileView(view) {
             // Only effective on mobile
@@ -95,6 +95,15 @@
             } else {
                 icon.textContent = '▲';
             }
+        }
+
+        function toggleTempStorage() {
+            const content = document.getElementById('tempStorageList');
+            const container = document.getElementById('tempStorageContainer');
+            const btn = document.getElementById('toggleTempBtn');
+            const isHidden = content.classList.toggle('hidden');
+            btn.classList.toggle('collapsed', isHidden);
+            container.classList.toggle('collapsed', isHidden);
         }
 
         // Auto-collapse header when clicking outside
